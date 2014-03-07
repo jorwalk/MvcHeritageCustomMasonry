@@ -1,0 +1,51 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Heritage Custom Masonry", "Index", "Home", null, new { @class = "navbar-brand" })
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Journeyman", "Index", "Home")</li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("Index","Portfolio","Portfolio")">
+                        Portfolio <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Portfolio", "Index", "Portfolio")</li>
+                        <li>@Html.ActionLink("Entry", "Entry", "Portfolio")</li>
+                        <li>@Html.ActionLink("Fireplace", "Fireplace", "Portfolio")</li>
+                        <li>@Html.ActionLink("Gable", "Gable", "Portfolio")</li>
+                        <li>@Html.ActionLink("Garage", "Garage", "Portfolio")</li>
+                        <li>@Html.ActionLink("House", "House", "Portfolio")</li>
+                        <li>@Html.ActionLink("Mailbox", "Mailbox", "Portfolio")</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("Index","Brick","Brick Materials")">
+                        Brick Materials <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Brick Materials", "Index", "Brick")</li>
+                        <li>@Html.ActionLink("Acme", "Acme_Brick", "Brick")</li>
+                        <li>@Html.ActionLink("Belden", "Belden_Brick", "Brick")</li>
+                        <li>@Html.ActionLink("Boral", "Boral_Brick", "Brick")</li>
+                        <li>@Html.ActionLink("General Shale", "General_Shale_Brick", "Brick")</li>
+                        <li>@Html.ActionLink("Interpace Brick", "Interpace_Brick", "Brick")</li>
+                        <li>@Html.ActionLink("Robinson Brick", "Robinson_Brick", "Brick")</li>
+                    </ul>
+                </li>
+
+
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
