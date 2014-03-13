@@ -2,52 +2,52 @@
 
 namespace MvcHeritageCustomMasonry.Controllers
 {
-    public class BrickController : Controller
+    public class BrickMaterialController : Controller
     {
         //
-        // GET: /Brick/
+        // GET: /BrickMaterial/
         public ActionResult Index()
         {
             return View();
         }
 
         //
-        // GET: /Brick/Acme_Brick
+        // GET: /BrickMaterial/Acme_Brick
         public ActionResult Acme_Brick()
         {
             return View();
         }
 
         //
-        // GET: /Brick/Belden_Brick
+        // GET: /BrickMaterial/Belden_Brick
         public ActionResult Belden_Brick()
         {
             return View();
         }
 
         //
-        // GET: /Brick/Boral_Brick
+        // GET: /BrickMaterial/Boral_Brick
         public ActionResult Boral_Brick()
         {
             return View();
         }
 
         //
-        // GET: /Brick/General_Shale_Brick
+        // GET: /BrickMaterial/General_Shale_Brick
         public ActionResult General_Shale_Brick()
         {
             return View();
         }
         
         //
-        // GET: /Brick/Interpace_Brick
+        // GET: /BrickMaterial/Interpace_Brick
         public ActionResult Interpace_Brick()
         {
             return View();
         }
 
         //
-        // GET: /Brick/Robinson_Brick
+        // GET: /BrickMaterial/Robinson_Brick
         public ActionResult Robinson_Brick()
         {
             return View();

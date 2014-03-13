@@ -1,46 +1,39 @@
 ﻿
 @{
-    ViewBag.Title = "Fireplace";
+    ViewBag.Title = "Fireplace - Portfolio";
+    ViewBag.PageName = "Fireplace";
+    Layout = "~/Views/Shared/_LayoutPortfolio.cshtml";
+    int i = 1;
+    const int tot = 10;
 }
-<h2>Fireplace</h2>
-@*<section class="row">
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"></h3>
-                </div>
-                <div class="panel-body">
 
+@for (var a = 0; a < 3; a++)
+{
+    <section class="row">
+        @for (var b = 0; b < 4; b++)
+        {
+            if (i < tot) { 
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">@ViewBag.PageName @i</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="text-center">
+                                <img class="thumbnail" title="@ViewBag.PageName @i" alt="@ViewBag.PageName @i" src="@Url.Content(string.Format("~/Content/Images/Portfolio/Fireplace/thumbs/thumbs_fireplace_{0}_large.jpg", @i))" style="max-width: 100%;">
+                            </p>
+                        </div>
+                        <div class="panel-footer">
+                            <button class="btn btn-sm btn-primary fullsize" data-target="#myModal" data-title="@ViewBag.PageName @i" data-img-url="@Url.Content(string.Format("~/Content/Images/Portfolio/Fireplace/fireplace_{0}_large.jpg", @i))">
+                                <i class="glyphicon glyphicon-new-window"></i>
+                                full
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="panel-footer">
-
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"></h3>
-                </div>
-                <div class="panel-body">
-
-                </div>
-                <div class="panel-footer">
-
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"></h3>
-                </div>
-                <div class="panel-body">
-
-                </div>
-                <div class="panel-footer">
-
-                </div>
-            </div>
-        </div>
-    </section>*@
+            i++;
+            }
+        }
+    </section>
+    
+}

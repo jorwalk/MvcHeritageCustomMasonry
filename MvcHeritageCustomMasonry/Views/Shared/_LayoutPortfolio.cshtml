@@ -1,0 +1,53 @@
+﻿@using MvcHeritageCustomMasonry.Controllers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Heritage Custom Masonry</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @Html.Partial("Partial_Navbar_Fixed_Top")
+    <article class="container body-content">
+        <section class="row">
+            <div class="col-md-12">
+                <h1>@ViewBag.PageName</h1>
+                <div class="breadcrumb">You are here: <a href="@Url.Action("Index","Home")" title="View Home">Home</a> / <a href="@Url.Action("Index","Portfolio")" title="View Portfolio">Portfolio</a> / @ViewBag.PageName</div>
+            </div>
+        </section>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p><small>&copy; @DateTime.Now.Year - Heritage Custom Masonry</small></p>
+        </footer>
+    </article>
+    @Html.Partial("_PartialModal");
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript">
+        $(document).ready(function() {
+           
+            $('button.fullsize').click(function (e) {
+                var title = $(this).attr('data-title');
+                $('#myModal h4.modal-title').html(title);
+                var imgSrc = $(this).attr('data-img-url');
+                $("<img/>", { 'src': imgSrc,'width':'100%' }).appendTo('#myModal div.modal-body');
+
+                $('#myModal').modal('show');
+            });
+
+            //
+            // MODAL EVENTS
+            $('#myModal').on('show.bs.modal', function (e) { });
+            $('#myModal').on('showN.bs.modal', function (e) { });
+            $('#myModal').on('hide.bs.modal', function (e) { });
+            $('#myModal').on('hidden.bs.modal', function(e) {
+                $('#myModal div.modal-body').empty();
+            });
+        });
+    </script>
+</body>
+</html>

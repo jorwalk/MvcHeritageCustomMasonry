@@ -117,7 +117,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\BrickController.cs" />
+    <Compile Include="Controllers\BrickMaterialController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\Frequently_Asked_QuestionsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -1484,7 +1484,6 @@
     <Content Include="Content\Images\Portfolio\Mailbox\thumbs\thumbs_mailbox_9_large.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\bluffstone\bodega.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\bluffstone\coosbay.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\bluffstone\dynamic\prescott-nggid03735-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\bluffstone\laplata.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\bluffstone\mineret.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\bluffstone\prescott.jpg" />
@@ -1494,7 +1493,6 @@
     <Content Include="Content\Images\Rock\Eldorado\bluffstone\thumbs\thumbs_mineret.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\bluffstone\thumbs\thumbs_prescott.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\cliffstone\cambria.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\cliffstone\dynamic\ponderosa-nggid03740-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\cliffstone\lantana.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\cliffstone\manzanita.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\cliffstone\mesquite.jpg" />
@@ -1507,14 +1505,12 @@
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\bella.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\capri.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\cognac.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\country-rubble\dynamic\polermo-nggid03744-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\polermo.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\thumbs\thumbs_bella.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\thumbs\thumbs_capri.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\thumbs\thumbs_cognac.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\country-rubble\thumbs\thumbs_polermo.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\fieldledge\andante.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\fieldledge\dynamic\veneto-nggid03748-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\fieldledge\meseta.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\fieldledge\thumbs\thumbs_andante.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\fieldledge\thumbs\thumbs_meseta.jpg" />
@@ -1523,7 +1519,6 @@
     <Content Include="Content\Images\Rock\Eldorado\fieldledge\umbria.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\fieldledge\veneto.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\hillstone\bergamo.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\hillstone\dynamic\verona-nggid03752-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\hillstone\lucera.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\hillstone\molano.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\hillstone\thumbs\thumbs_bergamo.jpg" />
@@ -1532,7 +1527,6 @@
     <Content Include="Content\Images\Rock\Eldorado\hillstone\thumbs\thumbs_verona.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\hillstone\verona.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\limestone\castillo.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\limestone\dynamic\york-nggid03757-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\limestone\sanmarino.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\limestone\savannah.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\limestone\shilo.jpg" />
@@ -1544,7 +1538,6 @@
     <Content Include="Content\Images\Rock\Eldorado\limestone\york.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\bitteroot.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\durango.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\dynamic\yukon-nggid03763-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\mesaverde.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\shasta.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\sierra.jpg" />
@@ -1556,7 +1549,6 @@
     <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\thumbs\thumbs_yukon.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\mountain-ledge\yukon.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\river-rock\colorado.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\river-rock\dynamic\yakima-nggid03768-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\river-rock\rainier.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\river-rock\riogrande.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\river-rock\saginaw.jpg" />
@@ -1568,7 +1560,6 @@
     <Content Include="Content\Images\Rock\Eldorado\river-rock\yakima.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\rustic-ledge\cascade.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\rustic-ledge\clearwater.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\rustic-ledge\dynamic\sequoia-nggid03774-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\rustic-ledge\saddleback.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\rustic-ledge\saratoga.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\rustic-ledge\sawtooth.jpg" />
@@ -1581,7 +1572,6 @@
     <Content Include="Content\Images\Rock\Eldorado\rustic-ledge\thumbs\thumbs_sequoia.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\shadow-rock\bronze.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\shadow-rock\chesapeake.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\shadow-rock\dynamic\teton-nggid03779-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\shadow-rock\shenandoah.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\shadow-rock\somerset.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\shadow-rock\teton.jpg" />
@@ -1593,7 +1583,6 @@
     <Content Include="Content\Images\Rock\Eldorado\stacked-stone\alderwood.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\stacked-stone\castaway.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\stacked-stone\chapelhill.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\stacked-stone\dynamic\santafe-nggid03785-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\stacked-stone\nantucket.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\stacked-stone\pagosasprings.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\stacked-stone\santafe.jpg" />
@@ -1605,7 +1594,6 @@
     <Content Include="Content\Images\Rock\Eldorado\stacked-stone\thumbs\thumbs_santafe.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\top-rock\buckhorn.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\top-rock\dakota.jpg" />
-    <Content Include="Content\Images\Rock\Eldorado\top-rock\dynamic\montana-nggid03789-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\top-rock\laquinta.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\top-rock\montana.jpg" />
     <Content Include="Content\Images\Rock\Eldorado\top-rock\thumbs\thumbs_buckhorn.jpg" />
@@ -1614,7 +1602,6 @@
     <Content Include="Content\Images\Rock\Eldorado\top-rock\thumbs\thumbs_montana.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\brown.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\capecod.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\dynamic\timber-nggid03679-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\grey.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\summit.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\thumbs\thumbs_brown.jpg" />
@@ -1624,7 +1611,6 @@
     <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\thumbs\thumbs_timber.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Chief_Joseph\timber.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Cobble\arenberg.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\Cobble\dynamic\vertain-nggid03683-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Cobble\french.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Cobble\heritage.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Cobble\thumbs\thumbs_arenberg.jpg" />
@@ -1632,11 +1618,9 @@
     <Content Include="Content\Images\Rock\Harristone\Cobble\thumbs\thumbs_heritage.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Cobble\thumbs\thumbs_vertain.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Cobble\vertain.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\Fieldstone\dynamic\greywebersplit-nggid03684-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Fieldstone\greywebersplit.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Fieldstone\thumbs\thumbs_greywebersplit.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Granite\capecod.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\Granite\dynamic\westridge-nggid03689-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Granite\rockport.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Granite\standrews.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Granite\summit.jpg" />
@@ -1648,7 +1632,6 @@
     <Content Include="Content\Images\Rock\Harristone\Granite\westridge.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Guillotine\barkwood.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Guillotine\canyonshadow.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\Guillotine\dynamic\stillwater-nggid03694-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Guillotine\fossilbutte.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Guillotine\redelk.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Guillotine\stillwater.jpg" />
@@ -1658,7 +1641,6 @@
     <Content Include="Content\Images\Rock\Harristone\Guillotine\thumbs\thumbs_redelk.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Guillotine\thumbs\thumbs_stillwater.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Ledgestone\copper.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\Ledgestone\dynamic\zionssandstone-nggid03701-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Ledgestone\englishblock.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Ledgestone\goldidaho.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Ledgestone\hazelwood.jpg" />
@@ -1673,7 +1655,6 @@
     <Content Include="Content\Images\Rock\Harristone\Ledgestone\thumbs\thumbs_zionssandstone.jpg" />
     <Content Include="Content\Images\Rock\Harristone\Ledgestone\zionssandstone.jpg" />
     <Content Include="Content\Images\Rock\Harristone\limestone\catalina.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\limestone\dynamic\venetian-nggid03706-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\limestone\spanisholive.jpg" />
     <Content Include="Content\Images\Rock\Harristone\limestone\summerset.jpg" />
     <Content Include="Content\Images\Rock\Harristone\limestone\summit.jpg" />
@@ -1684,7 +1665,6 @@
     <Content Include="Content\Images\Rock\Harristone\limestone\thumbs\thumbs_venetian.jpg" />
     <Content Include="Content\Images\Rock\Harristone\limestone\venetian.jpg" />
     <Content Include="Content\Images\Rock\Harristone\ridgestone\arcadian.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\ridgestone\dynamic\veranda-nggid03710-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\ridgestone\labella.jpg" />
     <Content Include="Content\Images\Rock\Harristone\ridgestone\madeleine.jpg" />
     <Content Include="Content\Images\Rock\Harristone\ridgestone\thumbs\thumbs_arcadian.jpg" />
@@ -1693,7 +1673,6 @@
     <Content Include="Content\Images\Rock\Harristone\ridgestone\thumbs\thumbs_veranda.jpg" />
     <Content Include="Content\Images\Rock\Harristone\ridgestone\veranda.jpg" />
     <Content Include="Content\Images\Rock\Harristone\rolled-river-rock\bearcreek.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\rolled-river-rock\dynamic\trailcreek-nggid03715-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\rolled-river-rock\grandteton.jpg" />
     <Content Include="Content\Images\Rock\Harristone\rolled-river-rock\lewispeak.jpg" />
     <Content Include="Content\Images\Rock\Harristone\rolled-river-rock\meadowcreek.jpg" />
@@ -1705,7 +1684,6 @@
     <Content Include="Content\Images\Rock\Harristone\rolled-river-rock\trailcreek.jpg" />
     <Content Include="Content\Images\Rock\Harristone\sandstone\coastal.jpg" />
     <Content Include="Content\Images\Rock\Harristone\sandstone\desertwashed.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\sandstone\dynamic\westdesert-nggid03720-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\sandstone\mojave.jpg" />
     <Content Include="Content\Images\Rock\Harristone\sandstone\redcliff.jpg" />
     <Content Include="Content\Images\Rock\Harristone\sandstone\thumbs\thumbs_coastal.jpg" />
@@ -1716,7 +1694,6 @@
     <Content Include="Content\Images\Rock\Harristone\sandstone\westdesert.jpg" />
     <Content Include="Content\Images\Rock\Harristone\thin-brick\charleston.jpg" />
     <Content Include="Content\Images\Rock\Harristone\thin-brick\coloradoused.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\thin-brick\dynamic\oldvirginia-nggid03724-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\thin-brick\oldmill.jpg" />
     <Content Include="Content\Images\Rock\Harristone\thin-brick\oldvirginia.jpg" />
     <Content Include="Content\Images\Rock\Harristone\thin-brick\thumbs\thumbs_charleston.jpg" />
@@ -1726,7 +1703,6 @@
     <Content Include="Content\Images\Rock\Harristone\uintah\brown.jpg" />
     <Content Include="Content\Images\Rock\Harristone\uintah\capecod.jpg" />
     <Content Include="Content\Images\Rock\Harristone\uintah\chablis.jpg" />
-    <Content Include="Content\Images\Rock\Harristone\uintah\dynamic\willowmist-nggid03730-ngg0dyn-91x68-00f0w010c011r110f110r010t010.jpg" />
     <Content Include="Content\Images\Rock\Harristone\uintah\rockycliff.jpg" />
     <Content Include="Content\Images\Rock\Harristone\uintah\summit.jpg" />
     <Content Include="Content\Images\Rock\Harristone\uintah\thumbs\thumbs_brown.jpg" />
@@ -1743,6 +1719,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <None Include="Properties\PublishProfiles\mvcheritage - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\mvcheritage - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1775,17 +1754,19 @@
     <Content Include="Views\Journeyman\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\FrequentlyAskedQuestions\Index.cshtml" />
-    <Content Include="Views\Brick\Index.cshtml" />
+    <Content Include="Views\BrickMaterial\Index.cshtml" />
     <Content Include="Views\Rock\Index.cshtml" />
     <Content Include="Views\Rock\Harristone.cshtml" />
     <Content Include="Views\Rock\Eldorado.cshtml" />
-    <Content Include="Views\Brick\Acme_Brick.cshtml" />
-    <Content Include="Views\Brick\Belden_Brick.cshtml" />
-    <Content Include="Views\Brick\Boral_Brick.cshtml" />
-    <Content Include="Views\Brick\General_Shale_Brick.cshtml" />
-    <Content Include="Views\Brick\Interpace_Brick.cshtml" />
-    <Content Include="Views\Brick\Robinson_Brick.cshtml" />
+    <Content Include="Views\BrickMaterial\Acme_Brick.cshtml" />
+    <Content Include="Views\BrickMaterial\Belden_Brick.cshtml" />
+    <Content Include="Views\BrickMaterial\Boral_Brick.cshtml" />
+    <Content Include="Views\BrickMaterial\General_Shale_Brick.cshtml" />
+    <Content Include="Views\BrickMaterial\Interpace_Brick.cshtml" />
+    <Content Include="Views\BrickMaterial\Robinson_Brick.cshtml" />
     <Content Include="Views\Shared\Partial_Navbar_Fixed_Top.cshtml" />
+    <Content Include="Views\Shared\_LayoutPortfolio.cshtml" />
+    <Content Include="Views\Shared\_PartialModal.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
